@@ -1,0 +1,14 @@
+# API Server
+fastapi
+uvicorn[standard]
+pydantic[email]
+pydantic[dotenv] # load env file
+
+# Database
+motor
+dnspython
+
+# Development
+pip-tools
+black
+flake8
